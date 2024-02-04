@@ -1,9 +1,18 @@
-function isPrime(number) {
-    for (let i = 2; i < number; i++) {
-        if (number % i === 0) {
-            return true; 
-        }
+function primenum(n){
+    if(n==1){
+      return false;
     }
-    return true; 
-}
-console.log(isPrime(5));
+    else if(n==2){
+      return true;
+    }
+    else{
+      for(var i=2;i<n;i++){
+        if(n%i==0){
+          return false;
+        }
+      }
+      return true;
+    }
+  
+  }
+  console.log(primenum(5));
