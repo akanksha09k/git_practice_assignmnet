@@ -13,4 +13,4 @@ function primenum(n) {
     return true;
 }
 
-console.log(primenum(5));
+console.log(primenum(8));
