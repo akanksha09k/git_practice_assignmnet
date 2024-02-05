@@ -15,4 +15,4 @@ function primenum(n){
     }
   
   }
-  console.log(primenum(5));
+  console.log(primenum(6));
